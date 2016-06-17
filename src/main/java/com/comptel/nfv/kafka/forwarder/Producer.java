@@ -1,4 +1,4 @@
-package kafka.example;
+package com.comptel.nfv.kafka.forwarder;
 /**
  * File: Producer.java
 **/

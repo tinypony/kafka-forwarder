@@ -2,12 +2,12 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>kafka-producer</groupId>
-    <artifactId>kafka-producer</artifactId>
+    <groupId>kafka-forwarder</groupId>
+    <artifactId>kafka-forwarder</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
-    <name>kafka-producer</name>
+    <name>kafka-forwarder</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,8 +40,13 @@
         <dependency>
             <groupId>kafka</groupId>
             <artifactId>kafka</artifactId>
-            <version>0.7.2</version>
+            <version>0.9.0</version>
             <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>0.9.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
